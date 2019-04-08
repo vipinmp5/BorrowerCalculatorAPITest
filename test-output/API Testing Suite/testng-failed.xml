@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [API Testing Suite]">
+  <test name="APITest(failed)">
+    <classes>
+      <class name="com.lendico.test.GeneratePlanTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="verifyAnnuityInGeneratedPlan"/>
+        </methods>
+      </class> <!-- com.lendico.test.GeneratePlanTest -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [API Testing Suite] -->

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Testing Suite" verbose="1">
+	<test name="APITest">
+		<classes>
+			<class name="com.lendico.test.GeneratePlanTest" />
+			<!--  class name="com.lendico.test.CalculateAnnuityTest" /-->
+		</classes>
+	</test>
+</suite>
